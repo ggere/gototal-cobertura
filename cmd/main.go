@@ -15,5 +15,5 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("Total coverage: %.2f%%\r\n", percentage)
+	fmt.Printf("Total coverage: %.2f%% of statements\r\n", percentage)
 }

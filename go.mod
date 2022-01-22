@@ -1,4 +1,4 @@
-module github.com/ggere/gototal-cover
+module github.com/ggere/gototal-cobertura
 
 go 1.17
 

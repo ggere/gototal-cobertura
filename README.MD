@@ -27,6 +27,12 @@ golang:
       cobertura: coverage.xml
 ```
 
+## Output
+
+```sh
+Total coverage: 62.50%
+```
+
 ## Installation
 
 ```sh

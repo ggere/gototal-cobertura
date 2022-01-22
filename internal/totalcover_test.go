@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	totalcover "github.com/ggere/gototal-cover/internal"
+	totalcover "github.com/ggere/gototal-cobertura/internal"
 )
 
 func TestTotalCoverage_Returns100(t *testing.T) {

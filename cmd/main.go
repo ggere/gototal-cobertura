@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	totalcover "github.com/ggere/gototal-cover/internal"
+	totalcover "github.com/ggere/gototal-cobertura/internal"
 )
 
 func main() {

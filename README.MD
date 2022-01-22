@@ -1,6 +1,6 @@
 # gototal-cobertura
 
-A Go utility that reports the total line-rate from a cobertura XML code coverage report.
+A Go utility that reports the total code coverage from a cobertura XML code coverage report.
 
 ## Usage
 

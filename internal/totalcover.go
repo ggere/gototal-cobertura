@@ -5,7 +5,6 @@ import (
 	"encoding/xml"
 	"io"
 	"io/ioutil"
-	"log"
 	"strconv"
 )
 
@@ -23,7 +22,7 @@ func TotalCover(input io.Reader) (total float64, err error) {
 	var c coberturaXML
 	err = xml.Unmarshal(byteValue, &c)
 	if err != nil {
-		log.Fatal(err)
+		return
 	}
 
 	percent, err := strconv.ParseFloat(c.LineRate, 64)

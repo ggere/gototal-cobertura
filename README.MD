@@ -20,6 +20,7 @@ golang:
     - gotestsum --junitfile report.xml --format testname -- -coverprofile=coverage.out ./...
     - gocover-cobertura < coverage.out > coverage.xml
     - gototal-cobertura < coverage.xml
+  coverage: "/coverage: \d+.\d+% of statements/"
   artifacts:
     when: always
     reports:
@@ -30,7 +31,7 @@ golang:
 ## Output
 
 ```sh
-Total coverage: 62.50%
+Total coverage: 62.50% of statements
 ```
 
 ## Installation
